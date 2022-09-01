@@ -11,6 +11,9 @@ Developed in python3 version, install the required module first, specify the sou
   4. python3 -m pip install pyparsing
   
   ## Set the path for the enum definition and log file
+  with open('baseEnum.hpp','r') as sampleFile:
+  with open('enumIDs.hpp','r') as sampleFile:
+  MyFile = 'LogExample.txt'  # Input file
   
   # Run the script
   python3 ./parseLog.py
