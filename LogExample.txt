@@ -1,0 +1,231 @@
+[Task1] | Interrupt                    id               = 00000090  ISR              = 008ED357 | 000298.994.399.970s |   
+            |                                  SID              = 0000004C                              |                     |    |
+[Task1] | InterruptHandler  id               = 00000090                              | 000298.994.400.236s |   
+[Task1] | Interrupt1      regCpGenIntstat  = 00000100  interruptMask    = FFFFFFFB | 000298.994.400.952s |   
+            |                                  unused           = 00000000                              |                     |    |
+[Task1] | InterruptRespons0            primaryStatus    = 00006816  secondaryStatus  = A01C0001 | 000298.994.401.918s |   
+            |                                  unused           = 00000000                              |                     |    |
+[Task1] | InterruptRespons1            secondaryStatus2 = 00000000  statusSequenceId = 00000001 | 000298.994.401.943s |   
+            |                                  unused           = 00000000                              |                     |    |
+[Task1] | InterruptRespons2            GetCommandInputL = 00000000  GetCommandOutput = 00000000 | 000298.994.402.131s |   
+            |                                  unused           = 00000000                              |                     |    |
+[Task1] | HandleRespons      EnumId&Param      = 944F0001  MsgExtParam      = 00006816 | 000298.994.402.440s |   
+            |                                  unused           = 00000000                              |                     |    |
+[Task1] | Notify           reportedCount    = 00000000  recoverableCount = 00000000 | 000298.994.403.009s |   
+            |                                  pDescriptor      = 28115A04                              |                     |    |
+[Task1] | HandleNotify          requestCtx       = 00000000  unused           = 00000000 | 000298.994.404.341s |  
+            |                                  unused           = 00000000                              |                     |    |
+[Task1] | Message            EnumId&Param      = 944F0001  MsgExtParam      = 00006816 | 000298.994.405.417s |   
+            |                                  &cmd             = 280FAD2C                              |                     |    |
+[Task1] | Procerss                                                            | 000298.994.407.746s |   
+[Task2] | Loo Events             events           = 00000002                              | 000298.994.410.520s |   
+[Task2] | Start While Run                                                                 | 000298.994.410.682s |   
+[Task2] | Req Event                                                                    | 000298.994.410.786s |   
+[Task2] | Loop Event                                                                    | 000298.994.410.998s |   
+[Task2] | Coun           count            = 00000C1D  unused           = 00000000 | 000298.994.411.486s |   
+            |                                  unused           = 00000000                              |                     |    |
+[Task2] | Gen              EnumId&Param      = 944F0001  MsgExtParam      = 00006816 | 000298.994.414.412s |   
+            |                                  unused           = 00000000                              |                     |    |
+[Task2] | Message            EnumId&Param      = A62D000A  MsgExtParam      = 00006816 | 000298.994.415.476s |   
+            |                                  &cmd             = 280E3A38                              |                     |    |
+[Task2] | Procerss                                                            | 000298.994.416.692s |   
+[Task2] | ProcessReturn          ret              = 00000001  unused           = 00000000 | 000298.994.416.764s |   
+            |                                  unused           = 00000000                              |                     |    |
+[Task2] | Dispatch    workId           = 00000000                              | 000298.994.417.211s |   
+[Task2] | Dispatch end                                                                      | 000298.994.417.614s |   
+[Task2] | Loop finish              moreWork         = 00000001  OpInProgress     = 00000001 | 000298.994.417.624s |   
+[Task2] | Loop Event                                                                    | 000298.994.417.636s |   
+[Task2] | Coun           count            = 00000C1E  unused           = 00000000 | 000298.994.417.858s |   
+            |                                  unused           = 00000000                              |                     |    |
+[Task2] |  Fail m_Status         = 0000A030  savedError       = 00006816 | 000298.994.421.798s |   
+            |                                  GetSpaSocState   = 00000002                              |                     |    |
+[Task2] | DebugAssert21        ecode            = 00007222  parm1            = 0000B20B | 000298.994.422.486s |  
+            |                                  unused           = 00000000                              |                     |    |
+[Task2] | DebugAssert22        cpsr             = 00000000  spsr             = 00000000 | 000298.994.422.545s |  
+            |                                  unused           = 00000000                              |                     |    |
+[Task2] | CacheInfo             CacheLevel       = 00000001  cacheSizeinKiB   = 00000020 | 000298.994.762.572s |   
+            |                                  numberOfSets     = 00000100  numberOfWays     = 00000004 |                     |    |
+            |                                  lineSizeInBytes  = 00000020                              |                     |    |
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.763.351s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.763.464s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.763.689s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.763.829s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.763.945s |   
+[Task2] |  Release                                                               | 000298.994.763.992s |   
+[Task2] | Receive                                                             | 000298.994.764.183s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.764.323s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.764.439s |   
+[Task2] |  Release                                                               | 000298.994.764.486s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.765.615s |   
+[Task2] | SYNC                                                                                      | 000298.994.765.615s |    
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.765.730s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.765.956s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.766.096s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.766.212s |   
+[Task2] |  Release                                                               | 000298.994.766.259s |   
+[Task2] | Receive                                                             | 000298.994.766.450s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.766.590s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.766.706s |   
+[Task2] |  Release                                                               | 000298.994.766.753s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.767.925s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.768.041s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.768.266s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.768.407s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.768.523s |   
+[Task2] |  Release                                                               | 000298.994.768.570s |   
+[Task2] | Receive                                                             | 000298.994.768.760s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.768.901s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.769.017s |   
+[Task2] |  Release                                                               | 000298.994.769.064s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.770.214s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.770.330s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.770.555s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.770.696s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.770.811s |   
+[Task2] |  Release                                                               | 000298.994.770.858s |   
+[Task2] | Receive                                                             | 000298.994.771.049s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.771.190s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.771.305s |   
+[Task2] |  Release                                                               | 000298.994.771.352s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.772.484s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.772.600s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.772.825s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.772.966s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.773.081s |   
+[Task2] |  Release                                                               | 000298.994.773.128s |   
+[Task2] | Receive                                                             | 000298.994.773.319s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.773.460s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.773.575s |   
+[Task2] |  Release                                                               | 000298.994.773.622s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.774.770s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.774.886s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.775.111s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.775.258s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.775.376s |   
+[Task2] |  Release                                                               | 000298.994.775.423s |   
+[Task2] | Receive                                                             | 000298.994.775.614s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.775.755s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.775.870s |   
+[Task2] |  Release                                                               | 000298.994.775.917s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.777.065s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.777.181s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.777.406s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.777.546s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.777.662s |   
+[Task2] |  Release                                                               | 000298.994.777.709s |   
+[Task2] | Receive                                                             | 000298.994.777.900s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.778.040s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.778.156s |   
+[Task2] |  Release                                                               | 000298.994.778.203s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.779.354s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.779.469s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.779.694s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.779.835s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.779.951s |   
+[Task2] |  Release                                                               | 000298.994.779.998s |   
+[Task2] | Receive                                                             | 000298.994.780.188s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.780.329s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.780.445s |   
+[Task2] |  Release                                                               | 000298.994.780.492s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.781.624s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.781.739s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.781.964s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.782.118s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.782.233s |   
+[Task2] |  Release                                                               | 000298.994.782.280s |   
+[Task2] | Receive                                                             | 000298.994.782.471s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.782.612s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.782.712s |   
+[Task2] |  Release                                                               | 000298.994.782.734s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.783.869s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.783.984s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.784.209s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.784.353s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.784.463s |   
+[Task2] |  Release                                                               | 000298.994.784.510s |   
+[Task2] | Receive                                                             | 000298.994.784.700s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.784.841s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.784.957s |   
+[Task2] |  Release                                                               | 000298.994.785.004s |   
+[Task2] | Wait                    current          = 0000000A  desired          = 0000000B | 000298.994.786.154s |   
+[Task2] | Wait End                current          = 0000000A  desired          = 0000000B | 000298.994.786.270s |   
+            |                                  result           = 00000000                              |                     |    |
+[Task2] | Receive                                                             | 000298.994.786.495s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.786.636s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.786.751s |   
+[Task2] |  Release                                                               | 000298.994.786.798s |   
+[Task2] | Receive                                                             | 000298.994.786.989s |   
+[Task2] | Get             envelope         = 00000000                              | 000298.994.787.130s |   
+[Task2] |  Constr       envelopePtr      = 00000000                              | 000298.994.787.239s |   
+[Task2] |  Release                                                               | 000298.994.787.255s |   
+[Task2] | Error                  NestCnt          = 00000001  PC               = 00941C6C | 000298.994.795.237s |   
+[Task2] | CoreRegsDump           PC               = 00941C6C  ISVALID          = 00000001 | 000298.994.795.265s |   
+            |                                  CPSR             = 2000003F  DFSR             = 0000080D |                     |    |
+            |                                  DFAR             = DF7ABEE3  IFSR             = 0000040D |                     |    |
+            |                                  IFAR             = 3DDFFFDF  TPIDRPRW         = 000B3978 |                     |    |
+            |                                  CONTEXTIDR       = 'CeD2'                                |                     |    |
+[Task2] | RegisterDump    SocArbIntReg     = 000001FF  SocArbCohInt     = 00000000 | 000298.994.795.688s |   
+            |                                  SocArbCohAddr    = 00000000  SocArbAacErr     = 00000000 |                     |    |
+            |                                  SocArbAacAddr    = 00000000  SocArbDecInt     = 00000000 |                     |    |
+            |                                  SocArbDecAddr    = 00000000  SocArbSlvInt     = 00000000 |                     |    |
+            |                                  SocArbSlvAddr    = 00000000  SocArbDramSlvInt = 00000000 |                     |    |
+            |                                  SocArbDramSlvAdr = 00000000  SocArbToInt      = 00000000 |                     |    |
+            |                                  SocArbToAddr     = 00000000  SocArbDramToInt  = 00000000 |                     |    |
+            |                                  SocArbDramToAddr = 00000000  SocArbPibMstToDb = 00000000 |                     |    |
+            |                                  SocArbRev        = 50C9B004  SocArbErrorDis   = 00000000 |                     |    |
+            |                                  SocArbErrorCtrl  = 01004B00  SocArbGpdmaHprot = 0000000F |                     |    |
+[Task2] |StatusRegs       Mp2mmAxierrLog0  = 00000000  Mp2mmAxierrLog1  = 00000000 | 000298.994.796.444s |   
+            |                                  Mp2mmAxierrLog3  = 00000000                              |                     |    |
+            |                                  MmDramDbgAddr    = 00000000,00000000                     |                     |    |
+            |                                  MmDramDbgInfo    = 00000000  Chkpor           = 00004E52 |                     |    |
+[Task2] | DumpRegisters      windowIndex      = 00000000  WindowCfg        = FF80000C | 000298.994.796.701s |   
+            |                                  WindowCfgExt     = 00000000                              |                     |    |
+[Task2] | DumpRegisters      windowIndex      = 00000001  WindowCfg        = FF80000C | 000298.994.796.782s |   
+            |                                  WindowCfgExt     = 00000000                              |                     |    |
+[Task2] | DumpRegisters      windowIndex      = 00000002  WindowCfg        = 1600110C | 000298.994.796.863s |   
+            |                                  WindowCfgExt     = 00000000                              |                     |    |
+[Task2] | DumpRegisters      windowIndex      = 00000003  WindowCfg        = 200F330C | 000298.994.796.945s |   
+            |                                  WindowCfgExt     = 00000000                              |                     |    |
+[Task2] | DumpRegisters      windowIndex      = 00000004  WindowCfg        = 1502110C | 000298.994.797.026s |   
+            |                                  WindowCfgExt     = 00000000                              |                     |    |
+[Task2] | DumpRegisters      windowIndex      = 00000005  WindowCfg        = 3003FF0C | 000298.994.797.107s |   
+            |                                  WindowCfgExt     = 00000001                              |                     |    |
+[Task2] | DumpRegisters      windowIndex      = 00000006  WindowCfg        = 1422110C | 000298.994.797.188s |   
+            |                                  WindowCfgExt     = 00000000                              |                     |    |
+[Task2] | DumpRegisters      windowIndex      = 00000007  WindowCfg        = 1200110C | 000298.994.797.270s |   
+            |                                  WindowCfgExt     = 00000000                              |                     |    |
+[Task2] | AssertFailed                                                                    | 000298.994.798.208s |   
+[Task2] | NoTaskSwitches                                                                   | 000298.994.798.821s |   
+[Task2] | FatalInfo                     FatalCode     = 00003024  FatalValue    = 00007222 | 000298.994.799.452s |   
+            |                                  FatalPc       = 00941C6C  FatalPoh      = 008068A4 |                     |    |
+            |                                  FatalReason   = 00000001  ErrorType        = 00000001 |                     |    |
+            |                                  coreId           = 00000000                              |                     |    |
+[Task2] | FatalHandler                  hangRequested    = 00000001  isRecursive      = 00000000 | 000298.994.799.890s |   
+            |                                  coreId           = 00000000  hang             = 00000001 |                     |    |
+[Task2] | FatalRequest                                                          | 000298.994.800.687s |   
+[Task3] | Isr                    id               = 00000002  ISR              = 00860A79 | 000298.994.801.453s |   
+[Task3] | RequestFatal        thisCoreId       = 00000001                              | 000298.994.802.491s |   
+[Task2] | DirectMemoryWrite          remoteAddress    = 1200299C                              | 000298.994.809.501s |   
+[Task2] | StartDirectDataTransfer    transactionPtr   = 30FFA6B0  opType           = 00000000 | 000298.994.809.811s |   
+            |                                  isSynchronous    = 00000001  srcPtr           = 3429F4A6 |                     |    |
+            |                                  destPtr          = 1AE0299C  windowIndex      = 00000007 |                     |    |
+            |                                  numBytes         = 00000002                              |                     |    |
+[Task2] | DirectMemoryWrite          remoteAddress    = 120028E2                              | 000298.994.814.701s |   
+[Task2] | StartDirectDataTransfer    transactionPtr   = 30FFA6B0  opType           = 00000000 | 000298.994.814.742s |   
+            |                                  isSynchronous    = 00000001  srcPtr           = 3429F4A4 |                     |    |
+            |                                  destPtr          = 1AE028E2  windowIndex      = 00000007 |                     |    |
+            |                                  numBytes         = 00000002                              |                     |    |
+[Task2] | SendSignal                                                          | 000298.994.815.514s |   
+[Task2] | Snapshot   OperatingState   = 00000005  CodeMode         = 00000002 | 000298.994.816.662s |   
+            |                                  DisRsvAreaLoad   = 00000000                              |                     |    |
+-
